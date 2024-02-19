@@ -25,10 +25,10 @@ function Navbar() {
           <a href="#" class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-blackx md:dark:hover:bg-transparent">About</a>
         </li>
         <li>
-          <a href="#" class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Projects</a>
+          <a href="#" class=" block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Projects</a>
         </li>
         <li>
-          <a href="#" class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Resume</a>
+          <a href="https://github.com/oiibar/CV" target='_blank'  class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Resume</a>
         </li>
         <li>
           <a href="#" class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent">Contact</a>

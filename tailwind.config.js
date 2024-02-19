@@ -6,10 +6,12 @@ module.exports = {
   theme: {
     colors: {
       transparent: 'transparent',
-      'back': '#fed7aa',
+      'back': '#daad86',
       'blue': '#659dbd',
       'white': '#fff',
-      'grn': '#8d8741'
+      'green': '#8d8741',
+      'txt': '#fff',
+      'block': '#fbeec1'
     },
     fontFamily: {
       'sans': ['Montserrat'],

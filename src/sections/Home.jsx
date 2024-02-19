@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-import pic from '../../assests/pic.png'
+import Navbar from '../components/Navbar/Navbar'
+import pic from '../assests/pic.png'
 
 function Home() {
   return (
-    <main className='bg-back'>
+    <main className=''>
       <Navbar></Navbar>
       <div className='mt-32 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
         
