@@ -8,7 +8,8 @@ module.exports = {
       transparent: 'transparent',
       'back': '#fed7aa',
       'blue': '#659dbd',
-      'white': '#fff'
+      'white': '#fff',
+      'grn': '#8d8741'
     },
     fontFamily: {
       'sans': ['Montserrat'],
