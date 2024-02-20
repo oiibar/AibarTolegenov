@@ -4,7 +4,7 @@ import Skills from './sections/Skills';
 
 function App() {
   return (
-    <div className=''>
+    <div>
       <Home></Home>
       <Skills></Skills>
       <Footer></Footer>
