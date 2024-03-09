@@ -9,16 +9,18 @@ function Home() {
       <div className="mt-32 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="">
           <h1 className="text-5xl">Hello, I'm Tolegenov Aibar</h1>
-          <p className="text-xl mt-3">
+          <p className="text-xl my-3">
             I'm a front end developer who is pationed to build modern &
             responsive webpages
           </p>
-          <button
-            className="bg-blue hover:bg-blue block mt-3 text-white font-bold py-2 px-4 rounded-full"
-            href="https://github.com/oiibar/Resume/blob/main/CV.pdf"
+          <a
+            className="bg-blue hover:bg-blue mt-3 text-white font-bold py-2 px-4 rounded-full"
+            href="https://github.com/oiibar/CV"
+            target="_blank"
+            rel="noreferrer"
           >
             Resume
-          </button>
+          </a>
         </div>
 
         <img alt="name" src={pic} className="w-1/4" />
