@@ -5,10 +5,7 @@ function Navbar() {
   return (
     <nav class="bg-transparent">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
-          class="flex items-center space-x-3 rtl:space-x-reverse"
-        >
+        <a href="/#" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} class="h-14" alt="BIL" />
         </a>
         <button
@@ -39,7 +36,7 @@ function Navbar() {
           <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent ">
             <li>
               <a
-                href="#"
+                href="/#"
                 class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent md:text-black-700 md:p-0 dark:text-black md:dark:text-black-500"
                 aria-current="page"
               >
@@ -48,7 +45,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/#"
                 class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-blackx md:dark:hover:bg-transparent"
               >
                 About
@@ -56,7 +53,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/#"
                 class=" block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Projects
@@ -66,6 +63,7 @@ function Navbar() {
               <a
                 href="https://github.com/oiibar/CV"
                 target="_blank"
+                rel="noreferrer"
                 class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Resume
@@ -73,7 +71,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/#"
                 class="block transform transition duration-500 hover:scale-110 py-2 px-3 text-black-900 rounded hover:bg-black-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-black md:dark:hover:text-black-500 dark:hover:bg-black-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Contact
