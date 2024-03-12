@@ -12,6 +12,7 @@ module.exports = {
       block: "#fbeec1",
       btn: "#3b82f6",
       btnDark: "#1d4ed8",
+      hov: "#6b7280",
     },
     fontFamily: {
       sans: ["Montserrat"],
