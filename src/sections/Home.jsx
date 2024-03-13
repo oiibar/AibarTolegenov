@@ -4,7 +4,7 @@ import pic from "../assests/pic.png";
 
 function Home() {
   return (
-    <main className="bg-back">
+    <main className="bg-background">
       <Navbar></Navbar>
       <div className="mt-32 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="">

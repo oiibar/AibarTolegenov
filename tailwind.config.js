@@ -13,6 +13,10 @@ module.exports = {
       btn: "#3b82f6",
       btnDark: "#1d4ed8",
       hov: "#6b7280",
+      background: "#efefef",
+      watermelon: "#ff3b3f",
+      carbon: "#a9a9a9",
+      sky: "caebfx2",
     },
     fontFamily: {
       sans: ["Montserrat"],

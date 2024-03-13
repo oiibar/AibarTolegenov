@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="bg-blue">
+    <section className="bg-background">
       <div className="w-full max-w-md mx-auto py-8">
         <h2 className="mb-16 text-xl font-bold text-center">Contact Me</h2>
         <form

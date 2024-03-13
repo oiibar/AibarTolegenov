@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer id="contact" className="bg-grn bottom-0">
+    <footer id="contact" className="bg-background bottom-0 color-carbon">
       <nav className="flex text-center items-center justify-center lg:justify-between mx-auto max-w-screen-xl align-center p-5">
         <p className="text-xl font-bold">Tolegenov Aibar</p>
         <ul>
