@@ -2,12 +2,10 @@ import React from "react";
 
 function Skill({ name, url }) {
   return (
-    <li className="mr-6 mb-6">
-      <div class="max-w-sm p-6 bg-block rounded-3xl flex flex-col justify-center text-center items-center">
+    <li>
+      <div class="bg-white/50 p-4 rounded-3xl flex flex-col justify-center text-center items-center">
         <img src={url} alt="tech" className="w-20" />
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          {name}
-        </h5>
+        <p class="text-2xl font-bold">{name}</p>
       </div>
     </li>
   );

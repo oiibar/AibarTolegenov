@@ -4,35 +4,15 @@ import "../index.css";
 
 function Navbar() {
   return (
-    <header class="flex items-center p-4 shadow-sm bg-slate-800 backdrop-blur-sm">
-      <img src={logo} class="h-14" alt="BIL" />
-      <nav class="ml-auto mr-10">
-        <ul class="flex items-center gap-5">
-          <li className="text-white/50 hover:text-white">
-            <a href="/#" aria-current="page">
-              Home
-            </a>
-          </li>
-          <li className="text-white/50 hover:text-white">
-            <a href="/#">About</a>
-          </li>
-          <li className="text-white/50 hover:text-white">
-            <a href="/#">Projects</a>
-          </li>
-          <li className="text-white/50 hover:text-white">
-            <a
-              href="https://github.com/oiibar/CV"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume
-            </a>
-          </li>
-          <li className="text-white/50 hover:text-white">
-            <a href="/#">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="fixed top-0 w-full shadow-md flex items-center justify-between py-4 px-6 bg-slate-800">
+      <img src={logo} class="w-14" alt="BIL" />
+      <ul class="flex items-center gap-5">
+        <li className="text-white/50 hover:text-white">Home</li>
+        <li className="text-white/50 hover:text-white">About</li>
+        <li className="text-white/50 hover:text-white">Projects</li>
+        <li className="text-white/50 hover:text-white">Resume</li>
+        <li className="text-white/50 hover:text-white">Contact</li>
+      </ul>
     </header>
   );
 }

@@ -58,13 +58,15 @@ function Skills() {
     ]);
   }, []);
   return (
-    <section className="flex flex-col text-center items-center justify-center mx-auto max-w-screen-xl align-center p-10">
-      <h2 className="mb-16 text-xl font-bold">Skill I acquired</h2>
-      <ul className="flex flex-wrap text-center items-center justify-center">
-        {skills.map((skill) => (
-          <Skill key={skill.name} name={skill.name} url={skill.url} />
-        ))}
-      </ul>
+    <section className="bg-slate-700">
+      <div className="container p-10 flex flex-col gap-4 items-center justify-center">
+        <h2 className="title">Skills I acquired</h2>
+        <ul className="flex flex-wrap gap-4 items-center justify-center">
+          {skills.map((skill) => (
+            <Skill key={skill.name} name={skill.name} url={skill.url} />
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }
