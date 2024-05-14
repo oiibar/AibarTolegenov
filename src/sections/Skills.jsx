@@ -10,6 +10,8 @@ import tailwind from "../assests/skills/tailwind.svg";
 import postgresql from "../assests/skills/postgresql.svg";
 import express from "../assests/skills/express.svg";
 import git from "../assests/skills/git.svg";
+import react from "../assests/skills/react.png";
+import vue from "../assests/skills/vue.png";
 
 function Skills() {
   const [skills, setSkills] = useState([]);
@@ -55,11 +57,19 @@ function Skills() {
         name: "PostgreSQL",
         url: postgresql,
       },
+      {
+        name: "React",
+        url: react,
+      },
+      {
+        name: "Vue",
+        url: vue,
+      },
     ]);
   }, []);
   return (
     <section className="bg-slate-700">
-      <div className="container p-10 flex flex-col gap-4 items-center justify-center">
+      <div className="container max-w-[800px] p-10 flex flex-col gap-4 items-center justify-center">
         <h2 className="title">Skills I acquired</h2>
         <ul className="flex flex-wrap gap-4 items-center justify-center">
           {skills.map((skill) => (

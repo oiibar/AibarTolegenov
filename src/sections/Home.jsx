@@ -11,7 +11,15 @@ function Home() {
             responsive web apps
           </p>
           <div>
-            <button className="btn">Resume</button>
+            <button className="btn">
+              <a
+                href="https://github.com/oiibar/Curriculum_Vitae"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
+            </button>
           </div>
         </div>
 
