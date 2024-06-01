@@ -13,10 +13,6 @@ function Portfolio() {
         url: "https://gym-cli.onrender.com/",
       },
       {
-        name: "Wisely",
-        url: "https://wisely-vgxa.onrender.com/",
-      },
-      {
         name: "Prayer",
         url: "https://prayer-cli.onrender.com/",
       },
