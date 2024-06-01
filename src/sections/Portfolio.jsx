@@ -5,53 +5,57 @@ function Portfolio() {
   useEffect(() => {
     setProjects([
       {
-        name: "Wisely",
-        url: "",
-      },
-      {
         name: "CS Timer",
-        url: "",
+        url: "https://cs-timer-cli.onrender.com/",
       },
       {
-        name: "Cat Wiki",
-        url: "",
+        name: "Gym",
+        url: "https://gym-cli.onrender.com/",
       },
       {
-        name: "IMDB",
-        url: "",
+        name: "Wisely",
+        url: "https://wisely-vgxa.onrender.com/",
       },
       {
         name: "Prayer",
-        url: "",
+        url: "https://prayer-cli.onrender.com/",
       },
       {
         name: "Hackathon",
-        url: "",
+        url: "https://hackathon2-cli.onrender.com/",
+      },
+      {
+        name: "Cat Wiki",
+        url: "https://cat-wiki-cli.onrender.com/",
+      },
+      {
+        name: "IMDB",
+        url: "https://imdb-clone-5wl7.onrender.com/",
       },
       {
         name: "Weather",
-        url: "",
+        url: "https://weather-app-ten-ecru-51.vercel.app/",
       },
       {
         name: "Talimger",
-        url: "",
+        url: "https://talimger.vercel.app/",
       },
       {
         name: "Connection",
-        url: "",
+        url: "https://connection-cli.onrender.com/",
       },
       {
         name: "Flashcards",
-        url: "",
+        url: "https://flashcards-054o.onrender.com/",
       },
       {
         name: "Quotes",
-        url: "",
+        url: "https://quotes-ashy.vercel.app/",
       },
     ]);
   }, []);
   return (
-    <section className="bg-slate-700">
+    <section className="">
       <div className="container p-10 flex flex-col gap-2 text-center items-center justify-center">
         <h2 className="title">Portfolio</h2>
         <ul className="flex gap-4 flex-wrap items-center justify-center text-center">

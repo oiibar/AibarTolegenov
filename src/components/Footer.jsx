@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-slate-700">
-      <div className="container p-10 flex text-center items-center justify-center gap-10">
+    <footer className="bg-white">
+      <div className="container p-4 flex text-center items-center justify-center gap-10">
         <ul className="flex flex-col gap-1">
           <li className="title">Contacts</li>
           <li>+7 705 879 7593</li>

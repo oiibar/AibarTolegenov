@@ -2,8 +2,8 @@ import pic from "../assests/pic.png";
 
 function Home() {
   return (
-    <main className="bg-slate-700">
-      <div className="flex items-center justify-between px-20 py-40 pt-60 gap-20">
+    <main className="">
+      <div className="flex items-center container justify-between px-20 py-40 pt-60 gap-20">
         <div className="flex flex-col gap-2">
           <h1 className="text-5xl font-bold">Hello, I'm Tolegenov Aibar</h1>
           <p className="text-xl">

@@ -2,11 +2,11 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="bg-slate-700">
-      <div className="container p-10 flex flex-col gap-2 text-center justify-center items-center">
+    <section className="">
+      <div className="container p-10  flex flex-col gap-2 text-center justify-center items-center">
         <h2 className="title">Contact Me</h2>
         <form
-          className="flex flex-col gap-2 bg-white/90 p-4 w-1/2 rounded-lg"
+          className="border flex flex-col gap-2 bg-white/90 p-4 w-1/2 rounded-lg"
           action="https://api.web3forms.com/submit"
           method="POST"
         >
