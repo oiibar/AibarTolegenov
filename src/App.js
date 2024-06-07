@@ -5,21 +5,24 @@ import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import Navbar from "./components/Header";
 import "./index.css";
+import Experience from "./sections/Experience";
 
 function App() {
   return (
     <div className="min-h-screen bg-orange-50 font-roboto text-slate-900">
       <Navbar></Navbar>
-      <div className="flex flex-col gap-28">
+      <div className="flex flex-col gap-16">
         <Home></Home>
         <hr className="container" />
         <Skills></Skills>
         <hr className="container" />
         <Portfolio></Portfolio>
         <hr className="container" />
+        <Experience></Experience>
+        <hr className="container" />
         <Contact></Contact>
-        <Footer></Footer>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

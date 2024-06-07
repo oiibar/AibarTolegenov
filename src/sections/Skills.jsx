@@ -69,7 +69,7 @@ function Skills() {
   }, []);
   return (
     <section className="">
-      <div className="container max-w-[800px] p-10 flex flex-col gap-4 items-center justify-center">
+      <div className="container p-10 flex flex-col gap-4 items-center justify-center">
         <h2 className="title">Skills I acquired</h2>
         <ul className="flex flex-wrap gap-4 items-center justify-center">
           {skills.map((skill) => (
