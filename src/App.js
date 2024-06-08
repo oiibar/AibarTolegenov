@@ -9,7 +9,7 @@ import Experience from "./sections/Experience";
 
 function App() {
   return (
-    <div className="min-h-screen bg-orange-50 font-roboto text-slate-900">
+    <div className="min-h-screen bg-[#011724] font-roboto text-white">
       <Navbar></Navbar>
       <div className="flex flex-col gap-16">
         <Home></Home>

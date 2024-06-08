@@ -34,14 +34,14 @@ function Experience() {
         <div className="flex items-center justify-between gap-24">
           <div className="flex flex-col gap-2">
             {exp.map((item) => (
-              <div className="cursor-pointer hover:bg-white/50 p-2 transition-colors duration-100 ease-in-out">
+              <div className="cursor-pointer p-2 transition-border hover:border-t-0 hover:border-l-4 hover:border-r-0 hover:border-b-0 hover:border-[#5092d4] duration-100 ease-in-out">
                 <h2 className="text-xl font-bold">{item.title}</h2>
                 <p>{item.details}</p>
               </div>
             ))}
           </div>
 
-          <div className="border-4 border-slate-900 p-2 rounded-md w-64 h-64">
+          <div className="border-4 border-white p-2 rounded-md w-64 h-64">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
               blanditiis.

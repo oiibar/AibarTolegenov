@@ -16,10 +16,10 @@
 
 @layer components {
   .btn {
-    @apply flex gap-2 items-center text-sm text-white py-2 px-4 rounded-md bg-blue-500;
+    @apply flex gap-2 items-center text-sm text-white py-2 px-4 rounded-md bg-[#5092d4];
   }
   .title {
-    @apply text-2xl font-bold mb-4;
+    @apply text-4xl font-extrabold mb-4;
   }
   .input {
     @apply bg-transparent w-full p-2 border bg-white text-gray-800 placeholder:text-gray-400 placeholder:text-sm rounded-md outline-none focus:border-slate-300;

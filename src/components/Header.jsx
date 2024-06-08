@@ -4,7 +4,7 @@ import "../index.css";
 
 function Navbar() {
   return (
-    <header class="fixed top-0 w-full shadow-md flex items-center justify-between py-4 px-6 bg-white">
+    <header class="fixed top-0 w-full shadow-md flex items-center justify-between py-4 px-6 bg-slate-900">
       <img src={logo} class="w-14" alt="BIL" />
       <ul class="flex items-center gap-5 cursor-pointer">
         <li className="hover:text-black">Home</li>
