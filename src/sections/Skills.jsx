@@ -12,11 +12,17 @@ import express from "../assests/skills/express.svg";
 import git from "../assests/skills/git.svg";
 import react from "../assests/skills/react.png";
 import vue from "../assests/skills/vue.png";
+import mongodb from "../assests/skills/mongodb.png";
+import node from "../assests/skills/node.png";
 
 function Skills() {
   const [skills, setSkills] = useState([]);
   useEffect(() => {
     setSkills([
+      {
+        name: "JS",
+        url: js,
+      },
       {
         name: "HTML",
         url: html,
@@ -30,16 +36,28 @@ function Skills() {
         url: tailwind,
       },
       {
-        name: "JS",
-        url: js,
-      },
-      {
-        name: "TS",
-        url: ts,
+        name: "React",
+        url: react,
       },
       {
         name: "NextJS",
         url: nextjs,
+      },
+      {
+        name: "Vue",
+        url: vue,
+      },
+      {
+        name: "Node",
+        url: node,
+      },
+      {
+        name: "Express",
+        url: express,
+      },
+      {
+        name: "TS",
+        url: ts,
       },
       {
         name: "NestJS",
@@ -49,21 +67,14 @@ function Skills() {
         name: "GIT",
         url: git,
       },
+
       {
-        name: "ExpressJS",
-        url: express,
-      },
-      {
-        name: "PostgreSQL",
+        name: "Postgres",
         url: postgresql,
       },
       {
-        name: "React",
-        url: react,
-      },
-      {
-        name: "Vue",
-        url: vue,
+        name: "Mongo",
+        url: mongodb,
       },
     ]);
   }, []);

@@ -19,12 +19,6 @@ function Portfolio() {
         gh: "https://github.com/oiibar/Gym",
       },
       {
-        name: "Prayer",
-        desc: "This project is aimed to offer an user-friendly app to keep track of praying time",
-        url: "https://prayer-cli.onrender.com/",
-        gh: "https://github.com/oiibar/Prayer",
-      },
-      {
         name: "Hackathon",
         desc: "This project was build during 2-day hackathon and it is a task list web app with user sign in/sign out",
         url: "https://hackathon2-cli.onrender.com/",
@@ -41,6 +35,12 @@ function Portfolio() {
         desc: "This is a movie app with search functionality and description modal window of each movie and user friendly UI/UX",
         url: "https://imdb-clone-5wl7.onrender.com/",
         gh: "https://github.com/oiibar/IMDB_Clone",
+      },
+      {
+        name: "Prayer",
+        desc: "This project is aimed to offer an user-friendly app to keep track of praying time",
+        url: "https://prayer-cli.onrender.com/",
+        gh: "https://github.com/oiibar/Prayer",
       },
       {
         name: "Weather",
@@ -147,10 +147,7 @@ function Portfolio() {
             </div>
           ))}
         </div>
-        <button
-          onClick={toggleShowAll}
-          className="mt-4 p-2 bg-blue-500 text-white rounded"
-        >
+        <button onClick={toggleShowAll} className="btn">
           {showAll ? "Show Less" : "See All"}
         </button>
       </div>
