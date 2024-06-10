@@ -16,7 +16,7 @@
 
 @layer components {
   .btn {
-    @apply flex gap-2 items-center text-sm text-white py-2 px-4 rounded-md bg-[#5092d4];
+    @apply flex gap-2 items-center text-sm justify-center text-white py-2 px-4 rounded-md border-2 border-[#5092d4] hover:bg-[#5092d4] transition-colors duration-150 ease-in-out bg-transparent;
   }
   .title {
     @apply text-4xl font-extrabold mb-4;
@@ -29,5 +29,8 @@
   }
   .project {
     @apply bg-white h-80 w-80 text-black font-bold text-3xl text-center flex items-center justify-center hover:bg-slate-300 transition-colors duration-300 ease-in-out;
+  }
+  .link {
+    @apply hover:text-white transition-colors ease-in-out duration-100;
   }
 }

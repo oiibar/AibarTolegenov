@@ -88,7 +88,7 @@ function Portfolio() {
   const displayedProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
-    <section>
+    <section id="portfolio">
       <div className="container p-10 flex flex-col gap-2 items-center justify-center">
         <h2 className="title">Projects</h2>
         <div className="flex flex-wrap items-center justify-center">

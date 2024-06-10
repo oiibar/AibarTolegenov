@@ -12,16 +12,30 @@ function Footer() {
           <img src={pic} className="w-10" />
           <p>Tolegenov Aibar</p>
         </div>
-        <ul className="flex gap-4">
-          <li>Home</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
-          <li>Resumes</li>
+        <ul className="flex gap-4 cursor-pointer text-white/60">
+          <li className="link">
+            <a href="#home">Home</a>
+          </li>
+          <li className="link">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="link">
+            <a href="#portfolio">Projects</a>
+          </li>
+          <li className="link">
+            <a href="#experience">Experience</a>
+          </li>
+          <li className="link">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
         <hr className="container" />
         <ul className="flex w-full items-center justify-between text-center">
-          <li>quovein@gmail.com</li>
+          <li className="text-white/60 cursor-pointer">
+            <a href="mailto:quovein@gmail.com" className="link">
+              quovein@gmail.com
+            </a>
+          </li>
           <li>
             <div className="flex gap-2 ">
               <a
@@ -47,7 +61,11 @@ function Footer() {
               </a>
             </div>
           </li>
-          <li>+7 705 879 7593</li>
+          <li className="text-white/60 cursor-pointer">
+            <a href="tel:+77058797593" className="link">
+              +7 705 879 7593
+            </a>
+          </li>
         </ul>
       </div>
     </footer>

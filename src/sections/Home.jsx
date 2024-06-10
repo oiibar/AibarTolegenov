@@ -1,8 +1,9 @@
 import pic from "../assests/pic.png";
+import right_white from "../assests/right_white.svg";
 
 function Home() {
   return (
-    <main className="">
+    <main id="home">
       <div className="flex items-center container justify-between px-20 py-40 pt-60 gap-20">
         <div className="flex flex-col gap-4">
           <h1 className="text-5xl font-bold">Hi, I'm Aibar</h1>
@@ -17,9 +18,9 @@ function Home() {
                 href="https://contact-me-neon.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
-                className="block"
+                className="flex items-center"
               >
-                Get in touch
+                Get in touch <img src={right_white} className="w-6" alt="->" />
               </a>
             </button>
             <button className="btn">

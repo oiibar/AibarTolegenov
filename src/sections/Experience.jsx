@@ -42,7 +42,7 @@ function Experience() {
   }, []);
 
   return (
-    <section>
+    <section id="experience">
       <div className="container p-10 flex flex-col gap-4 items-center justify-center">
         <h2 className="title">Experience</h2>
         <div className="flex items-center justify-between gap-24">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="">
+    <section id="contact">
       <div className="container p-10  flex flex-col gap-2 text-center justify-center items-center">
         <h2 className="title">Contact Me</h2>
         <form
@@ -50,7 +50,7 @@ function Contact() {
               name="message"
             />
           </div>
-          <button className="btn w-full flex justify-center" type="submit">
+          <button className="btn bg-[#5092d4]" type="submit">
             Submit
           </button>
         </form>
