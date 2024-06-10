@@ -9,7 +9,7 @@ function Footer() {
     <footer className="bg-[#011724]">
       <div className="container p-4 flex flex-col text-center items-center justify-between gap-4">
         <div className="text-center flex flex-col items-center gap-2 mb-4 justify-center">
-          <img src={pic} className="w-10" />
+          <img src={pic} className="w-16" />
           <p>Tolegenov Aibar</p>
         </div>
         <ul className="flex gap-4 cursor-pointer text-white/60">
