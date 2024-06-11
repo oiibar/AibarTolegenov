@@ -5,6 +5,13 @@ function Contact() {
     <section id="contact">
       <div className="container p-10  flex flex-col gap-2 text-center justify-center items-center">
         <h2 className="title">Contact Me</h2>
+        <p className="w-1/3">
+          Have a project in mind or want to collaborate? Fill out the form below
+          or reach me at
+          <a className="text-[#5092d4]" href="mailto:quovein@gmail">
+            quovein@gmail
+          </a>
+        </p>
         <form
           className="border flex flex-col gap-2 bg-white/90 p-4 w-1/2 rounded-lg"
           action="https://api.web3forms.com/submit"

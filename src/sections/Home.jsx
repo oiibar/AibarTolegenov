@@ -7,7 +7,9 @@ function Home() {
       <div className="flex items-center container justify-between px-20 py-40 pt-60 gap-20">
         <div className="flex flex-col gap-4">
           <h1 className="text-5xl font-bold">Hi, I'm Aibar</h1>
-          <p className="text-4xl font-bold text-[#5092d4]">Web developer</p>
+          <p className="text-4xl font-bold text-[#5092d4]">
+            Full stack developer
+          </p>
           <p className="text-xl">
             I'm a full stack web developer who is pationed to build modern &
             responsive web apps
